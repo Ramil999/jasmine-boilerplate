@@ -1,0 +1,44 @@
+{
+  "name": "jasmine-boilerplate",
+  "version": "1.0.0",
+  "author": "Christian Bromann <christian@saucelabs.com>",
+  "description": "Boilerplate project to run WebdriverIO tests with Jasmine",
+  "license": "MIT",
+  "homepage": "https://github.com/webdriverio/jasmine-boilerplate#readme",
+  "type": "module",
+  "keywords": [
+    "webdriver",
+    "webdriverio",
+    "jasmine",
+    "e2e",
+    "selenium",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdriverio/jasmine-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webdriverio/jasmine-boilerplate/issues"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "wdio run wdio.sauce.conf.ts",
+    "test:local": "wdio run wdio.local.conf.ts",
+    "test:sauce": "wdio run wdio.sauce.conf.ts"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^5.1.8",
+    "@wdio/cli": "9.19.0",
+    "@wdio/eslint": "^0.0.5",
+    "@wdio/globals": "9.17.0",
+    "@wdio/jasmine-framework": "9.18.0",
+    "@wdio/local-runner": "9.19.0",
+    "@wdio/sauce-service": "9.18.1",
+    "@wdio/spec-reporter": "9.19.0",
+    "eslint": "^9.29.0",
+    "typescript": "^5.8.3",
+    "webdriverio": "^9.19.1"
+  },
+  "packageManager": "pnpm@10.12.2"
+}
